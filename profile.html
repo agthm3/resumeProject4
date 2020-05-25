@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Resume</title>
+
+
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <!-- web fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <!-- /web fonts -->
+</head>
+
+<body>
+  <!-- header -->
+  <header class="w3l-header">
+    <div class="hero-header-11">
+      <div class="hero-header-11-content">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl navbar-light py-sm-2 py-1 px-0">
+            <a class="navbar-brand editContent" href="index.html">Resume</a>
+       
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="edu.html">Pendidikan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pelatihan.html">Pelatihan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Keterampilan</a>
+                  </li>
+               
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- //header -->
+
+  <!--  About section -->
+  <div class="w3l-about1 pt-5" id="about">
+    <div class="container pt-lg-3">
+      <h3 class="global-title">Tentang Saya</h3>
+      <div class="aboutgrids row">
+        <div class="col-lg-6 aboutgrid2">
+          <img src="assets/images/kisah.jpeg" alt="about image" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 aboutgrid1 my-lg-0 my-5">
+          <h4>Sedikit kisahku</h4>
+          <p>Nama saya Siti Widianingrum Maharani Rusli, acap kali dipanggil sebagai Widi. 
+              Saya lahir di Makassar pada tanggal 15 November 2002. Saya merupakan anak pertama dari 2 
+              bersaudara, anak dari pasangan Muhammad Rusli Chalik dan Jumriati. Saya merupakan anak yang
+               cukup aktif di sekolah. Saya sering kali terpilih sebagai ketua panitia acara sekolah. Saya
+                senang membaca berbagai jenis buku, baik itu fiksi ataupun non fiksi. Buku favorit saya adalah
+                 The Secret, karena buku ini mengajarkan kita untuk melihat dunia dari sisi yang lebih baik. Sejak 
+                 kecil, saya sudah diajarkan untuk bersikap mandiri. Meskipun umur saya baru menginjak 17 tahun, tetapi
+                  saya sudah mampu menghasilkan uang dan mencukupi kebutuhan diri saya sendiri. Dewasa ini, saya berusaha 
+                  untuk mengurangi kecanduan bermain sosial media, baik itu instagram, twitter maupun facebook dikarenakan 
+                  beberapa hal yang menurut saya cukup toxic. Saya lebih sering menggunakan waktu saya untuk membaca quora,
+                   medium, ataupun menonton TED TV yang dapat memotivasi saya untuk terus berubah menjadi pribadi yang lebih
+                    baik. Saya berharap saya dapat bertanggung jawab terhadap apapun keputusan saya nantinya dalam memilih
+                    karier yang akan saya tekuni. Saya ingin membahagiakan kedua orang tua saya karena mereka selalu mendukung 
+                    dan memercayakan pilihan hidup saya kepada saya sepenuhnya.</p>
+
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="w3l-footer">
+    <div id="footers14-block" class="py-3">
+      <div class="container">
+        <div class="footers14-bottom text-center">
+          <div class="social">
+        
+          </div>
+          <div class="copyright mt-1">
+            <
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up" aria-hidden="true"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Template JavaScript -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+
+  <script src="assets/js/smartphoto.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sm = new SmartPhoto(".js-img-viwer", {
+        showAnimation: false
+      });
+      // sm.destroy();
+    });
+  </script>
+
+
+</body>
+
+</html>
